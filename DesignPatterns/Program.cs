@@ -1,4 +1,5 @@
 ﻿using AbstractFactory;
+using Adapter;
 using FactoryMethod;
 using Singleton;
 
@@ -18,6 +19,10 @@ namespace DesignPatterns
             Console.WriteLine("------------------------");
             Console.WriteLine("3 - Singleton");
             Console.WriteLine("------------------------");
+            Console.WriteLine("Structural Patterns");
+            Console.WriteLine("------------------------");
+            Console.WriteLine("4 - Adapter");
+            Console.WriteLine("------------------------");
 
             var opcao = Console.ReadKey();
 
@@ -35,6 +40,9 @@ namespace DesignPatterns
                     break;
                 case '3':
                     ExecucaoSingleton.Executar();
+                    break;
+                case '4':
+                    ExecucaoAdapter.Executar();
                     break;
             }
 
