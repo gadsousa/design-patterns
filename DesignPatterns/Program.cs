@@ -1,5 +1,6 @@
 ﻿using AbstractFactory;
 using Adapter;
+using Command;
 using Composite;
 using Facade;
 using FactoryMethod;
@@ -29,6 +30,10 @@ namespace DesignPatterns
             Console.WriteLine("------------------------");
             Console.WriteLine("6 - Composite");
             Console.WriteLine("------------------------");
+            Console.WriteLine("Behavioral Patterns");
+            Console.WriteLine("------------------------");
+            Console.WriteLine("7 - Command");
+            Console.WriteLine("------------------------");
 
             var opcao = Console.ReadKey();
 
@@ -55,6 +60,9 @@ namespace DesignPatterns
                     break;
                 case '6':
                     ExecucaoComposite.Executar();
+                    break;
+                case '7':
+                    ExecucaoCommand.Executar();
                     break;
             }
 
