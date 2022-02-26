@@ -1,5 +1,6 @@
 ﻿using AbstractFactory;
 using Adapter;
+using Facade;
 using FactoryMethod;
 using Singleton;
 
@@ -23,6 +24,8 @@ namespace DesignPatterns
             Console.WriteLine("------------------------");
             Console.WriteLine("4 - Adapter");
             Console.WriteLine("------------------------");
+            Console.WriteLine("5 - Facade");
+            Console.WriteLine("------------------------");
 
             var opcao = Console.ReadKey();
 
@@ -43,6 +46,9 @@ namespace DesignPatterns
                     break;
                 case '4':
                     ExecucaoAdapter.Executar();
+                    break;
+                case '5':
+                    ExecucaoFacade.Executar();
                     break;
             }
 
