@@ -4,6 +4,7 @@ using Command;
 using Composite;
 using Facade;
 using FactoryMethod;
+using Observer;
 using Singleton;
 using Strategy;
 
@@ -37,6 +38,8 @@ namespace DesignPatterns
             Console.WriteLine("------------------------");
             Console.WriteLine("8 - Strategy");
             Console.WriteLine("------------------------");
+            Console.WriteLine("9 - Observer");
+            Console.WriteLine("------------------------");
 
             var opcao = Console.ReadKey();
 
@@ -69,6 +72,9 @@ namespace DesignPatterns
                     break;
                 case '8':
                     ExecucaoStrategy.Executar();
+                    break;
+                case '9':
+                    ExecucaoObserver.Executar();
                     break;
             }
 
