@@ -1,4 +1,4 @@
-﻿namespace FactoryMethod
+﻿namespace DesignPatterns.Creational.FactoryMethod
 {
     // Abstract Creator
     public abstract class DbFactory

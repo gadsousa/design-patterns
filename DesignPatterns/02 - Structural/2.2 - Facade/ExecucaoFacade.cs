@@ -1,7 +1,7 @@
-﻿using Facade.CrossCutting;
-using Facade.Domain;
+﻿using DesignPatterns.Structural.Facade.CrossCutting;
+using DesignPatterns.Structural.Facade.Domain;
 
-namespace Facade
+namespace DesignPatterns.Structural.Facade
 {
     public class ExecucaoFacade
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-namespace Adapter
+namespace DesignPatterns.Structural.Adapter
 {
     // Client
     public class TransacaoService

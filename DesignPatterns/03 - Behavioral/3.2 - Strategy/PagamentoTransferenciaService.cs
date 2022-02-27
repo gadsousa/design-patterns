@@ -1,6 +1,6 @@
-﻿using Facade.Domain;
+﻿using DesignPatterns.Structural.Facade.Domain;
 
-namespace Strategy
+namespace DesignPatterns.Behavioral.Strategy
 {
     public class PagamentoTransferenciaService : IPagamento
     {

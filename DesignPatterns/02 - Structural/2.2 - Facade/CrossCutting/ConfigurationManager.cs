@@ -1,4 +1,4 @@
-﻿namespace Facade.CrossCutting
+﻿namespace DesignPatterns.Structural.Facade.CrossCutting
 {
     public class ConfigurationManager : IConfigurationManager
     {

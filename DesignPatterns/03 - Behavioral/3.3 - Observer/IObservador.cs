@@ -1,4 +1,4 @@
-﻿namespace Observer
+﻿namespace DesignPatterns.Behavioral.Observer
 {
     // Observer
     public interface IObservador

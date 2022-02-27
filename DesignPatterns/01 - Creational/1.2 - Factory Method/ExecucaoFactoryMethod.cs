@@ -1,4 +1,4 @@
-﻿namespace FactoryMethod
+﻿namespace DesignPatterns.Creational.FactoryMethod
 {
     public class ExecucaoFactoryMethod
     {

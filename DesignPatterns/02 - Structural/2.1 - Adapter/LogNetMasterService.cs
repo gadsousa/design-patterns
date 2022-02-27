@@ -1,4 +1,4 @@
-﻿namespace Adapter
+﻿namespace DesignPatterns.Structural.Adapter
 {
     // Adaptee class
     public class LogNetMasterService : ILogNetMaster

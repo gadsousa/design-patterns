@@ -1,4 +1,4 @@
-﻿namespace AbstractFactory
+﻿namespace DesignPatterns.Creational.AbstractFactory
 {
     // AbstractProduct   
     public abstract class Guincho

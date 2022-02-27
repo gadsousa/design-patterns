@@ -1,4 +1,4 @@
-﻿namespace Strategy
+﻿namespace DesignPatterns.Behavioral.Strategy
 {
     public class PagamentoBoletoFacade : IPagamentoBoletoFacade
     {

@@ -1,4 +1,4 @@
-﻿namespace Composite
+﻿namespace DesignPatterns.Structural.Composite
 {
     public class DomainMessage : IMessage
     {

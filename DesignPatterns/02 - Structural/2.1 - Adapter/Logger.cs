@@ -1,4 +1,4 @@
-﻿namespace Adapter
+﻿namespace DesignPatterns.Structural.Adapter
 {
     // Target class
     public class Logger : ILogger

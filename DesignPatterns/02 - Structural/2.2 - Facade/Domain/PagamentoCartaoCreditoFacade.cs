@@ -1,6 +1,6 @@
-﻿using Facade.CrossCutting;
+﻿using DesignPatterns.Structural.Facade.CrossCutting;
 
-namespace Facade.Domain
+namespace DesignPatterns.Structural.Facade.Domain
 {
     public class PagamentoCartaoCreditoFacade : IPagamentoCartaoCreditoFacade
     {

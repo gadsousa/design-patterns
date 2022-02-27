@@ -1,4 +1,4 @@
-﻿namespace AbstractFactory
+﻿namespace DesignPatterns.Creational.AbstractFactory
 {
     // Client Class
     public class AutoSocorro

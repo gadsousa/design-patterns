@@ -1,4 +1,4 @@
-﻿namespace Facade.Domain
+﻿namespace DesignPatterns.Structural.Facade.Domain
 {
     public class Pagamento
     {

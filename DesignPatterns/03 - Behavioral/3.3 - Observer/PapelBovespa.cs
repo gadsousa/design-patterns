@@ -1,4 +1,4 @@
-﻿namespace Observer
+﻿namespace DesignPatterns.Behavioral.Observer
 {
     // Concrete Subject
     public class PapelBovespa : Investimento

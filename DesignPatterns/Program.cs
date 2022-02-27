@@ -1,12 +1,12 @@
-﻿using AbstractFactory;
-using Adapter;
-using Command;
-using Composite;
-using Facade;
-using FactoryMethod;
-using Observer;
-using Singleton;
-using Strategy;
+﻿using DesignPatterns.Behavioral.Command;
+using DesignPatterns.Behavioral.Observer;
+using DesignPatterns.Behavioral.Strategy;
+using DesignPatterns.Creational.AbstractFactory;
+using DesignPatterns.Creational.FactoryMethod;
+using DesignPatterns.Creational.Singleton;
+using DesignPatterns.Structural.Adapter;
+using DesignPatterns.Structural.Composite;
+using DesignPatterns.Structural.Facade;
 
 namespace DesignPatterns
 {

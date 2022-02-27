@@ -1,4 +1,4 @@
-﻿namespace Command
+﻿namespace DesignPatterns.Behavioral.Command
 {
     public class Usuario
     {
