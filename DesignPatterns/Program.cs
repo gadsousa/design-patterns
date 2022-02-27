@@ -5,6 +5,7 @@ using Composite;
 using Facade;
 using FactoryMethod;
 using Singleton;
+using Strategy;
 
 namespace DesignPatterns
 {
@@ -33,6 +34,8 @@ namespace DesignPatterns
             Console.WriteLine("Behavioral Patterns");
             Console.WriteLine("------------------------");
             Console.WriteLine("7 - Command");
+            Console.WriteLine("------------------------");
+            Console.WriteLine("8 - Strategy");
             Console.WriteLine("------------------------");
 
             var opcao = Console.ReadKey();
@@ -63,6 +66,9 @@ namespace DesignPatterns
                     break;
                 case '7':
                     ExecucaoCommand.Executar();
+                    break;
+                case '8':
+                    ExecucaoStrategy.Executar();
                     break;
             }
 
